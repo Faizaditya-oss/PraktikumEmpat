@@ -86,6 +86,7 @@ namespace PraktikumADO
                 Koneksi();
                 conn.Open();
 
+                // Variabel bertipe teks untuk menyimpan perintah SQL.
                 string query = "SELECT COUNT(*) FROM Matakuliah";
 
                 cmd = new SqlCommand(query, conn);
