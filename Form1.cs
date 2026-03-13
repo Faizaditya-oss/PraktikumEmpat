@@ -103,6 +103,8 @@ namespace PraktikumADO
             }
         }
 
+
+        // Menambahkan method untuk mengubah data di db.
         private void Update_Click(object sender, EventArgs e)
         {
             try
