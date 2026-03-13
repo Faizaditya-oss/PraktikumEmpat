@@ -53,6 +53,7 @@ namespace PraktikumADO
         
          }
 
+        // Method untuk menghitung jumlah data mahasiswa.
         private void HitungMhs_Click(object sender, EventArgs e)
         {
             try
