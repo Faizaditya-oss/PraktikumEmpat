@@ -77,8 +77,8 @@ namespace PraktikumADO
                 MessageBox.Show(ex.Message);
             }
         }
-    
 
+        // Method untuk menghitung jumlah Mahasiswa.
         private void HitungMK_Click(object sender, EventArgs e)
         {
             try
