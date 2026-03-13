@@ -15,6 +15,7 @@ namespace PraktikumADO
     {
         // Deklarasi objek koneksi dan command
         SqlConnection conn;
+        // cmd  = objek untuk mengirim perintah SQL ke database
         SqlCommand cmd;
         public Form1()
         {
