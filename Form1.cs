@@ -160,6 +160,7 @@ namespace PraktikumADO
                 Koneksi();
                 conn.Open();
 
+                //  menyimpan perintah SQL yang akan mengubah data di tabel MataKuliah.
                 string query = "UPDATE MataKuliah SET SKS = 4 WHERE KodeMK = 'IF210101'";
 
                 cmd = new SqlCommand(query, conn);
