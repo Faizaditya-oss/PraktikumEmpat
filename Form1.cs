@@ -32,7 +32,7 @@ namespace PraktikumADO
             
         }
 
-       
+        // Menambahkan kode yang otomatis berjalan ketika tombol Connect diklik oleh user.
         private void Connect_Click(object sender, EventArgs e)
         {
             try
