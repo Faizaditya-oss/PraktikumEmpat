@@ -129,6 +129,7 @@ namespace PraktikumADO
             }
         }
 
+        // Method untuk menghitung jumlah data Dosen.
         private void btnHitungDosen_Click(object sender, EventArgs e)
         {
             try
