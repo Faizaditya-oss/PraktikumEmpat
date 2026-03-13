@@ -65,6 +65,7 @@ namespace PraktikumADO
 
                 cmd = new SqlCommand(query, conn);
 
+                // Ambil hasilnya (1 angka) 
                 int jumlah = (int)cmd.ExecuteScalar();
 
                 txtHasil.Text = jumlah.ToString();
