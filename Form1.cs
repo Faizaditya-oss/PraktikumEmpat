@@ -22,6 +22,7 @@ namespace PraktikumADO
             
         }
 
+        // Membuka koneksi ke database
         private void Koneksi()
         {
             conn = new SqlConnection(
@@ -30,14 +31,7 @@ namespace PraktikumADO
             
         }
 
-        
-
-        
-
-        
-
        
-
         private void Connect_Click(object sender, EventArgs e)
         {
             try
