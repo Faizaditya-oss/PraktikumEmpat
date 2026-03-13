@@ -44,6 +44,8 @@ namespace PraktikumADO
 
                 conn.Close();
             }
+
+            //  menampilkan pesan error jika terjadi kesalahan saat membuka koneksi(try).
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
