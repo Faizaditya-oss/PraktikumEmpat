@@ -177,6 +177,8 @@ namespace PraktikumADO
             }
         }
 
+
+        // Menambahkan data baru ke tabel ProgramStudi di database.
         private void btnInsert_Click(object sender, EventArgs e)
         {
             try
