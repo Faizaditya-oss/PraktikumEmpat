@@ -116,6 +116,7 @@ namespace PraktikumADO
 
                 cmd = new SqlCommand(query, conn);
 
+                // menjalankan perintah SQL yang sudah disiapkan sebelumnya dan menyimpan hasilnya
                 int hasil = cmd.ExecuteNonQuery();
 
                 MessageBox.Show("Jumlah Baris terpengaruh: " + hasil);
