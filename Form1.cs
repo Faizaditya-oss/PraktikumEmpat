@@ -13,7 +13,7 @@ namespace PraktikumADO
 {
     public partial class Form1 : Form
     {
-
+        // Deklarasi objek koneksi dan command
         SqlConnection conn;
         SqlCommand cmd;
         public Form1()
